@@ -1,0 +1,43 @@
+* {
+	font-family: Georgia, serif;
+	color: #EB2355;
+	text-align: center;
+}
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav {
+background-color: #EF7FB1;
+padding: 10px;
+margin: 10px;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+
+section{
+	overflow: auto;
+	height: 100%;
+}
+
+main{
+	background-color: #EF7FB1;
+	padding: 10px;
+	margin: 10px;
+}
+article{
+	background-color:#EF7FB1;
+	padding: 20px;
+	margin: 20px;
+	width: 400px;
+}
+
+
+footer{background-color: black;
+	padding: 5px;
+	margin: 10px;	
+}
