@@ -1,42 +1,44 @@
 * {
 	font-family: Georgia, serif;
 	color: #EB2355;
-	text-align: center;
 }
+
 body {
 	width: 960px;
 	margin: 0 auto;
+	text-align: center; /* Center aligns the content */
 }
 
 nav {
-background-color: #EF7FB1;
-padding: 10px;
-margin: 10px;
-}
-
-li {
-	display: inline;
-	padding: 5px;
-}
-
-section{
-	overflow: auto;
-	height: 100%;
-}
-
-main{
 	background-color: #EF7FB1;
 	padding: 10px;
 	margin: 10px;
 }
-article{
-	background-color:#EF7FB1;
+
+li {
+	display: inline-block; /* Corrected display property */
+	padding: 5px;
+}
+
+main {
+	background-color: #EF7FB1;
+	padding: 10px;
+	margin: 10px;
+}
+
+article {
+	background-color: #EF7FB1;
 	padding: 20px;
 	margin: 20px;
 	width: 400px;
+	margin: 0 auto; /* Center aligns the article */
 }
 
-
+footer {
+	background-color: black; /* Ensure black is the desired color */
+	padding: 5px;
+	margin: 10px;
+}
 footer{background-color: black;
 	padding: 5px;
 	margin: 10px;	
